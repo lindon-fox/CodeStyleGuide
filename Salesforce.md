@@ -2,9 +2,11 @@
 Apex is a flavour of Java. When in doubt, check out the [Google Java Style Guide](https://google-styleguide.googlecode.com/svn/trunk/javaguide.html).
 
 ## Naming conventions
-
- 1. Class names are proper case: `MyClassName`
- 2. Variables are camel case: `myVariableName`
+(for help deciding how to camel case, see this entry from the [Google Java Style Guide](https://google-styleguide.googlecode.com/svn/trunk/javaguide.html#s5.3-camel-case)
+ 1. Class names are upper camel case: `MyClassName`
+ 2. Variables are lower camel case: `myVariableName`
+ 3. Constants are constant case: `MY_CONSTANT_NAME`
+ 4. Method parameters are lower camel case: `myParameterName`
  3. Salesforce custom opjects are proper case and end with a `__c`: `MyCustomObject__c`
  4. Salesforce custom object fields are camel case and end with a `__c`: 'MyCustomField__c`
  5. Key words in SOQL statments are all caps: `SELECT Field FROM Table WHERE OtherField = true`
